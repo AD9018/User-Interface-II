@@ -118,7 +118,7 @@ transform:rotate(-20deg);
     align-items: center;
     background: url(https://tinyurl.com/y5ladj4s);
     background-position:center;
-    background-size: 100%;
+    background-size: 50%;
     font-family: fantasy;
     color:white;
     font-weight: lighter;
@@ -149,17 +149,22 @@ transform:rotate(-20deg);
 }
 
 
+
+img{
+width: 80%;
+}
+
 section{
     width:100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 .images{
     width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items:center;
     padding: 1%;
     transition: .3s;
@@ -174,8 +179,9 @@ section{
     text-decoration: none;
     font-size: 1.4em;
     color: rebeccapurple;
+    
 }
-.images a:hover{
+.images img:hover{
     color:forestgreen;
 }
 
@@ -184,8 +190,18 @@ footer{
     width:100%;
    display: flex;
     justify-content: center;
-    align-items: flex-end;
-    height:10vh; ;
-   
+    align-items:center;
+    height:15vh; 
+    background: url(https://tinyurl.com/y5ladj4s);
+   background-size: 20%;
     
+}
+.buttonContact button{
+    padding: 1em;
+    font-size: 1em;
+    background: tan;
+    color:black;
+    font-family: cursive;
+font-weight: bold;
+border-radius: 1em;
 }
